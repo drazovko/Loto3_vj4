@@ -1,6 +1,6 @@
 ﻿namespace LOTO_Aplikacija
 {
-    partial class Form1
+    partial class FrmLoto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmLoto
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(364, 281);
+            this.Name = "FrmLoto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LOTO 7/39";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
